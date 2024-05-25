@@ -25,4 +25,8 @@ def make_app(settings: Settings) -> FastAPI:
     async def root() -> str:
         return 'build/index.html'
 
+    @app.get('/display-name')
+    async def display_name() -> str:
+        return "Illia Kroshka IM-23"
+
     return app

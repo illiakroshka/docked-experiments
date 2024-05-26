@@ -1,0 +1,252 @@
+{
+  "greeting": {
+    "en": "Welcome to the bot",
+    "ukr": "Ласкаво просимо до бота"
+  },
+  "introduction": {
+    "en": "This chatbot makes English learning more efficient with AI!\n\nUsage overview:\n\n• Run bot \uD83D\uDE80 - start word list creation\n\n• Generate audio \uD83D\uDD0A - generate audio for word list or video vocabulary\n\n• Video Vocabulary Scan \uD83C\uDFA5 - generate YouTube video vocabulary \n\n• Translate bot \uD83C\uDDEC\uD83C\uDDE7 - translate bot\n\n• Help \uD83D\uDEDF - commands navigation",
+    "ukr": "Цей чат-бот робить вивчення англійської мови ефективнішим за допомогою штучного інтелекту!\n\n• Запустити бота \uD83D\uDE80 - почати створення списку слів\n\n• Згенерувати аудіо \uD83D\uDD0A - згенерувати аудіо для списку слів або для словника відео.\n\n• Сканувати словник відео \uD83C\uDFA5 - згенерувати словник YouTube відео\n\n• Змінити мову бота \uD83C\uDDEC\uD83C\uDDE7 - перекласти бот на іншу мову\n\n• Допомога \uD83D\uDEDF - навігація команд"
+  },
+  "level": {
+    "en": "What is your level of English?",
+    "ukr": "Який ваш рівень англійської?"
+  },
+  "language": {
+    "en": "Which language to translate the words into?",
+    "ukr": "На яку мову перекладати слова?"
+  },
+  "topic": {
+    "en": "Write the topic of words that you want to learn ✍\uFE0F",
+    "ukr": "Напишіть тему слів, слова з якої хочете вивчити ✍\uFE0F"
+  },
+  "topicsR": {
+    "en": "Topics you might be interested in:",
+    "ukr": "Теми, які можуть вас зацікавити:"
+  },
+  "topicInfo": {
+    "en": "/topics - suggests popular example topics for your level",
+    "ukr": "/topics - пропонує популярні приклади тем для вашого рівня"
+  },
+  "topicsErr": {
+    "en": "Set your English level first",
+    "ukr": "Спочатку вкажіть ваш рівень англійської"
+  },
+  "changeTopicErr": {
+    "en": "Set your English level and to which language to translate first.",
+    "ukr": "Встановіть свій рівень англійської та мову, на яку перекладати"
+  },
+  "topics": {
+    "en": {
+      "A1": ["Food", "Animals", "Family", "Daily routine", "Clothes"],
+      "A2": ["Hobbies", "Places", "Jobs", "Describing people", "House"],
+      "B1": ["Education", "Health", "Travel", "Music", "Transportation"],
+      "B2": ["Business", "Environment", "Relationships", "Politics", "Media and entertainment"],
+      "C1": ["Global issues", "Economics", "Science and technology", "Critical thinking", "Psychology"]
+    },
+    "ukr": {
+      "A1": ["Їжа", "Тварини", "Сім'я", "Щоденна рутина", "Одяг"],
+      "A2": ["Хобі", "Місця", "Роботи", "Описання людей", "Будинок"],
+      "B1": ["Освіта", "Здоров'я", "Подорожі", "Музика", "Транспорт"],
+      "B2": ["Бізнес", "Середовище", "Відносини", "Політика", "Медіа та розваги"],
+      "C1": ["Глобальні питання", "Економіка", "Наука і технології", "Критичне мислення", "Психологія"]
+    }
+  },
+  "help": {
+    "en": "• Run bot \uD83D\uDE80 - start word list creation \n• Generate audio \uD83D\uDD0A - generate audio for word list or video vocabulary\n• Video Vocabulary Scan \uD83C\uDFA5 - generate YouTube video vocabulary\n• Change topic ✒\uFE0F - change the topic of the word list \n• Regenerate list \uD83D\uDD03 - regenerate the list if you know most of the words \n• Translate bot \uD83C\uDDEC\uD83C\uDDE7 - translate the bot \n• Profile \uD83D\uDC64 - check requests statistic. \n• Info ℹ\uFE0F - information about the bot",
+    "ukr": "• Запустити бота \uD83D\uDE80 - почати створення списку слів \n• Згенерувати аудіо \uD83D\uDD0A - згенерувати аудіо для списку слів або для словника відео\n• Сканувати словник відео \uD83C\uDFA5 - згенерувати словник YouTube відео\n• Змінити тему списку ✒\uFE0F - обрати нову тему списку слів.\n• Регенерувати список \uD83D\uDD03 - оновити список, якщо ви знаєте більшість слів.\n• Змінити мову бота \uD83C\uDDEC\uD83C\uDDE7 - перекласти бот на іншу мову.\n• Профіль \uD83D\uDC64 - статистика ваших запитів.\n• Інформація ℹ\uFE0F - надає інформацію про бота та його можливості.\n"
+  },
+  "info": {
+    "en": "This chatbot makes English learning more efficient with AI!\n\nFeatures:\n\n• Topic based word list generation - bot generates word lists based on your level of English and topic of words that you want to learn.\n\n• Text to speech generation - you can easily learn pronunciation of new words by generation audio\n\n• YouTube video scanning - you can get specific words related to the topic of the video, by simply providing the link on video\n\n• Help - command for navigation",
+    "ukr": "Цей бот використовується для створення списків слів на певну тему для певного рівня англійської. Крім того, ви можете обрати мову, якою перекладати ці слова.\n• Допомога - команда для навігації"
+  },
+  "warning": {
+    "en": "it can take some time",
+    "ukr": "Це може зайняти деякий час"
+  },
+  "ack": {
+    "en": "Prepare word list with topic",
+    "ukr": "Готується список слів на тему"
+  },
+  "ackReg": {
+    "en": "Regenerating your word list",
+    "ukr": "Список слів регенерується"
+  },
+  "RegErr": {
+    "en": "You cannot regenerate defunct word list",
+    "ukr": "Ви не можете регенерувати неіснуючий список слів"
+  },
+  "inputErr": {
+    "en": "Wrong input",
+    "ukr": "Неправильне введення"
+  },
+  "activeInput": {
+    "en": "Click to activate input",
+    "ukr": "Натисніть, щоб активувати введення"
+  },
+  "inputAck": {
+    "en": "Input is active",
+    "ukr": "Введення активне"
+  },
+  "botLang": {
+    "en": "Set bot language",
+    "ukr": "Встановіть мову бота"
+  },
+  "genErr": {
+    "en": "An error occurred during generating the list \n• Regenerate list - to regenerate the list \n• Change topic - to change the topic of the word list",
+    "ukr": "Під час створення списку сталася помилка \n• Регенерувати список - для перероблення списку \n• Змінити тему списку - для зміни теми списку слів"
+  },
+  "definitions": {
+    "en": "Do you want to get definitions?",
+    "ukr": "Генерувати дефеніції для слів?"
+  },
+  "idMessage": {
+    "en": "Your id: ",
+    "ukr": "Ваш ID: "
+  },
+  "requests": {
+    "en": "Requests made: ",
+    "ukr": "Зроблено запитів: "
+  },
+  "menuOptions": {
+    "en": [["Run bot \uD83D\uDE80"], ["Generate audio \uD83D\uDD0A"],["Video Vocabulary Scan \uD83C\uDFA5"], ["Change topic ✒\uFE0F", "Regenerate list \uD83D\uDD03"], ["Translate bot \uD83C\uDDEC\uD83C\uDDE7", "Profile \uD83D\uDC64"], ["Help \uD83D\uDEDF", "Info ℹ\uFE0F"]],
+    "ukr": [["Запустити бота \uD83D\uDE80"], ["Згенерувати аудіо \uD83D\uDD0A"],["Сканувати словник відео \uD83C\uDFA5"], ["Змінити тему списку ✒\uFE0F", "Регенерувати список \uD83D\uDD03"], ["Змінити мову бота \uD83C\uDDEC\uD83C\uDDE7", "Профіль \uD83D\uDC64"], ["Допомога \uD83D\uDEDF", "Інформація ℹ\uFE0F"]]
+  },
+  "engButton": {
+    "en": "English",
+    "ukr": "Англійська"
+  },
+  "ukrButton": {
+    "en": "Ukrainian",
+    "ukr": "Українська"
+  },
+  "yesButton": {
+    "en": "Yes",
+    "ukr": "Так"
+  },
+  "noButton": {
+    "en": "No",
+    "ukr": "Ні"
+  },
+  "wtButton": {
+    "en": "Without translation",
+    "ukr": "Без перекладу"
+  },
+  "freeRequestsErr": {
+    "en": "You don't have free requests anymore, purchase a premium subscription in the Premium section",
+    "ukr": "У вас не залишилось безкоштовних запитів, придбайте преміум підписку у розділі Преміум"
+  },
+  "freeRequestsStatus": {
+    "en": "Free requests left: ",
+    "ukr": "Залишилось безкоштовних запитів: "
+  },
+  "premiumSubscriptionOptions" : {
+    "en": "Premium Subscription:\n• Unlimited word lists generation\n• Generation of voice messages to check pronunciation\n• Faster speed\n",
+    "ukr": "Преміум підписка:\n• Необмежене створення списків слів\n• Генерація голосових повідомлень для перевірки вимови\n• Більша швидкість\n"
+  },
+  "premiumSubscriptionCost": {
+    "en": "Cost:\n• Day: 1.5$\n• Week: 5$\n• Month: 10$\n• Year: 70$\n",
+    "ukr": "Вартість:\n• День: 50₴\n• Тиждень: 150₴\n• Місяць: 350₴\n• Рік: 1500₴\n"
+  },
+  "premiumSubscriptionPayment": {
+    "en": "Pay the required amount on one of these cards:\nMono: 112233\nPrivat: 334455\n",
+    "ukr": "Сплатіть необхідну суму на одну з цих карт:\nМоноБанк: 112233\nПриватБанк: 334455\n"
+  },
+  "premiumSubscriptionMessage": {
+    "en": "Send a screenshot with the payment in the chat. The subscription will be activated during the day. You will receive a notification about this",
+    "ukr": "Та надішліть скріншот з оплатою в чат. Підписка буде активована протягом доби. Ви отримаєте сповіщення про це"
+  },
+  "subscriptionActive": {
+    "en": "Active",
+    "ukr": "Активна"
+  },
+  "subscriptionInactive": {
+    "en": "Inactive",
+    "ukr": "Неактивна"
+  },
+  "subscriptionMessage": {
+    "en": "Premium subscription: ",
+    "ukr": "Преміум підписка: "
+  },
+  "endDateMessage": {
+    "en": "End date (including): ",
+    "ukr": "Дійсна до (включно): "
+  },
+  "subscriptionDecline": {
+    "en": "You request for subscription has been refused",
+    "ukr": "Ваш запит на підписку відхилено"
+  },
+  "subscriptionActiveMes": {
+    "en": {
+      "day": "Your subscription for day is active\n• Profile - to check subscription status",
+      "week": "Your subscription for week is active\n• Profile - to check subscription status",
+      "month": "Your subscription for month is active\n• Profile - to check subscription status",
+      "year": "Your subscription for year is active\n• Profile - to check subscription status"
+    },
+    "ukr": {
+      "day": "Ваша підписка на день активна\n• Профіль - перевірити статус підписки",
+      "week": "Ваша підписка на тиждень активна\n• Профіль - перевірити статус підписки",
+      "month": "Ваша підписка на місяць активна\n• Профіль - перевірити статус підписки",
+      "year": "Ваша підписка на рік активна\n• Профіль - перевірити статус підписки"
+    }
+  },
+  "paymentConfirmation": {
+    "en": "Thank you for your payment, your subscription will be activated during the day\nYou will receive a notification about this",
+    "ukr": "Дякуємо за оплату, ваша підписка буде активована протягом дня.\nВи отримаєте сповіщення про це"
+  },
+  "enablePhotoUpload": {
+    "en": "Press the command Premium to enable screenshot of payment upload",
+    "ukr": "Натисніть команду Преміум щоб активувати відправку скріншоту оплати"
+  },
+  "wordListErr": {
+    "en": "Generate word list first",
+    "ukr": "Спершу згенеруйте список слів"
+  },
+  "buySubscriptionMes": {
+    "en": "To unblock this feature, purchase a premium subscription in the Premium section",
+    "ukr": "Для розблокування цієї функції придбайте преміум підписку у розділі Преміум"
+  },
+  "audioWarning": {
+    "en": "The audio is generating it can take some time",
+    "ukr": "Аудіо генерується, це може зайняти деякий час"
+  },
+  "audioErr": {
+    "en": "Error while sending audio",
+    "ukr": "Під час створення аудіо сталася помилка"
+  },
+  "duplicateAudioErr": {
+    "en": "You can't generate audio for the same word list twice",
+    "ukr": "Ви не можете створити аудіо для того самого списку слів двічі"
+  },
+  "videoScanWar": {
+    "en": "Video is scanning it can take some time",
+    "ukr": "Відео сканується, це може зайняти деякий час "
+  },
+  "callToAction": {
+    "en": "• Generate audio \uD83D\uDD0A - generate audio for word list\n\n• Change topic ✒\uFE0F - change word list topic\n\n• Regenerate list \uD83D\uDD03 - regenerate the list if you are not satisfied with the words",
+    "ukr": "• Згенерувати аудіо \uD83D\uDD0A - згенерувати аудіо для списку слів\n\n• Змінити тему списку ✒\uFE0F - змінити тему списку слів \n\n• Регенерувати список \uD83D\uDD03 - оновити список, якщо ви не задоволені словами."
+  },
+  "callAfterVideo":{
+    "en": "• Change topic ✒\uFE0F - change word list topic\n\n• Run bot \uD83D\uDE80 - generate new word list\n\n• Video Vocabulary Scan \uD83C\uDFA5 - scan YouTube video vocabulary",
+    "ukr": "• Змінити тему списку ✒\uFE0F - змінити тему списку слів \n\n• Запустити бота \uD83D\uDE80 - згенерувати новий список слів\n\n• Сканувати словник відео \uD83C\uDFA5 - сканування граматики YouTube відео"
+  },
+  "wordsNumber": {
+    "en": "Set the number of words you want to get",
+    "ukr": "Вкажіть кількість слів яку ви хочете отримати"
+  },
+  "roleForWl": {
+    "en": "You can write user's role in this topic for better word list generation ✍\uFE0F",
+    "ukr": "Ви можете вказати роль користувача у цій темі для кращої генераціїї списку слів ✍\uFE0F"
+  },
+  "refuseButton": {
+    "en": "Continue without role",
+    "ukr": "Продовжити без ролі"
+  },
+  "videoAction": {
+    "en": "Send a link to the YouTube video \uD83D\uDE3C",
+    "ukr": "Надішліть поситання на YouTube відео \uD83D\uDE3C"
+  },
+  "videoCallToAction": {
+    "en": "• Video Vocabulary Scan \uD83C\uDFA5 - scan one more video\n\n• Generate audio \uD83D\uDD0A - generate audio for vocabulary\n\n• Run bot \uD83D\uDE80 - generate new word list",
+    "ukr": "• Сканувати словник відео \uD83C\uDFA5 - сканувати ще одне YouTube відео\n\n• Згенерувати аудіо \uD83D\uDD0A - згенерувати аудіо для словника відео\n\n• Запустити бота \uD83D\uDE80 - згенерувати новий список слів"
+  }
+}
